@@ -130,7 +130,7 @@ def create_features():
     del df['lower_title']
 
 # Show the 10 first rows
-df.head(20)
+df.head(10)
 
 # it is necessary to change the file path
 # creates a cvs file with the script output
