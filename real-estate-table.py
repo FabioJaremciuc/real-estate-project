@@ -5,7 +5,7 @@ import numpy as np
 df = pd.read_csv('/home/jaremciuc/data_analysis_test/assignment_data.csv')
 
 def remove_nan():
-    '''Removes the NaN elements from the data set'''
+    '''Removes the NaN elements from the dataset'''
     #replaces NaN elements by 0
     df['plot_area'].fillna(0.0, inplace=True)
     df['total_area'].fillna(0.0, inplace=True)
